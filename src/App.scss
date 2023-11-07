@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.main-background {
+    width: 100%;
+    height: 100vh;
+    
+    background: linear-gradient(10deg, #355C7D, #6C5B7B, #C06C84);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .neon-text {
     font-size: 6vw;
     text-align: center;
